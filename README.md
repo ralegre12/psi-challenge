@@ -13,6 +13,7 @@ Este repositorio contiene dos proyectos:
 
 ## 📁 Estructura de carpetas
 psi-challenge/
+
 ├── backend/ # NestJS + TypeORM + SQLite in-memory
 ├── frontend/ # React + Vite + React Query + Jest
 ├── .gitignore
@@ -34,17 +35,19 @@ cd psi-challenge
 
 
 💾 Backend
-cd backend
-npm install
-npm run start:dev       # Levanta el servidor en modo desarrollo (http://localhost:3000)
-npm run test:e2e        # Ejecuta los tests end‑to‑end
+
+-cd backend
+-npm install
+-npm run start:dev       # Levanta el servidor en modo desarrollo (http://localhost:3000)
+-npm run test:e2e        # Ejecuta los tests end‑to‑end
 
 
 🌐 Frontend
-cd frontend
-npm install
-npm run dev             # Levanta la SPA en modo desarrollo (http://localhost:5173)
-npm test                # Ejecuta los tests unitarios con Jest
+
+-cd frontend
+-npm install
+-npm run dev             # Levanta la SPA en modo desarrollo (http://localhost:5173)
+-npm test                # Ejecuta los tests unitarios con Jest
 
 ⚙️ Configuración de la API en el Frontend
 Por defecto, el cliente Axios del frontend apunta al mismo host.
