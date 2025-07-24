@@ -12,13 +12,13 @@ Este repositorio contiene dos proyectos:
 ---
 
 ## 📁 Estructura de carpetas
-psi-challenge/
+**psi-challenge/**
 
-├── backend/ # NestJS + TypeORM + SQLite in-memory
-├── frontend/ # React + Vite + React Query + Jest
-├── .gitignore
-├── package.json
-└── README.md
+├── **backend/ # NestJS + TypeORM + SQLite in-memory**
+├── **frontend/ # React + Vite + React Query + Jest**
+├── **.gitignore**
+├── **package.json**
+└── **README.md**
 
 ## 🔧 Prerrequisitos
 
@@ -50,8 +50,8 @@ cd psi-challenge
 - **npm test**                # Ejecuta los tests unitarios con Jest
 
 ⚙️ Configuración de la API en el Frontend
-Por defecto, el cliente Axios del frontend apunta al mismo host.
-Si tu API backend corre en otro puerto o dominio, edita:
+**Por defecto, el cliente Axios del frontend apunta al mismo host.
+Si tu API backend corre en otro puerto o dominio, edita: **
 // frontend/src/services/api.js
 import axios from 'axios';
 
