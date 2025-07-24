@@ -1,0 +1,12 @@
+# Node y Nest
+node_modules/
+dist/
+*.log
+.env
+
+# React / Vite
+frontend/node_modules/
+frontend/dist/
+
+# SQLite
+backend/database.sqlite
