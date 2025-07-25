@@ -2,17 +2,17 @@ import { IsUUID, IsISO8601, IsString } from 'class-validator';
 
 export class CreateSessionDto {
   @IsUUID()
-  psychologistId: string;
+  psychologistId!: string;
 
   @IsISO8601()
-  date: string;
+  date!: string;
 
   @IsString()
-  patientTimezone: string;
+  patientTimezone!: string;
 
   @IsString()
-  timeSlot: string;
+  timeSlot!: string;
 
   @IsString()
-  mode: string;
+  mode!: string;
 }

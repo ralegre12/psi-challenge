@@ -3,20 +3,21 @@ import { Entity, PrimaryGeneratedColumn, Column } from 'typeorm';
 @Entity('sessions')
 export class SessionEntity {
   @PrimaryGeneratedColumn('uuid')
-  id: string;
+  id!: string;
 
   @Column()
-  psychologistId: string;
+  psychologistId!: string;
 
   @Column()
-  date: string;
+  date!: string;
 
   @Column()
-  patientTimezone: string;
+  patientTimezone!: string;
 
   @Column()
-  timeSlot: string;
+  timeSlot!: string;
 
   @Column()
-  mode: string;
+  mode!: string;
+  
 }
