@@ -1,0 +1,32 @@
+/* src/components/SessionForm.css */
+.session-form {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-top: 8px;
+  }
+  
+  .session-select {
+    flex: 1 1 120px;
+    padding: 8px;
+    font-size: 1rem;
+    min-width: 0;
+  }
+  
+  .session-button {
+    flex: 1 1 120px;
+    padding: 8px;
+    font-size: 1rem;
+  }
+  
+  /* en móvil, full‑width */
+  @media (max-width: 600px) {
+    .session-form {
+      flex-direction: column;
+    }
+    .session-select,
+    .session-button {
+      width: 100%;
+    }
+  }
+  
